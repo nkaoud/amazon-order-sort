@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Amazon Sort By Arrival",
+  "name": "Amazon SA Sort By Arrival",
   "version": "1.0",
   "author": "Alex Gulikers",
   "homepage_url": "https://github.com/7MinutesDead-Git/amazon-order-sort",
@@ -19,7 +19,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.amazon.com/*"],
+      "matches": ["*://*.amazon.sa/*"],
       "js": ["amazon-order-sort.js"]
     }
   ],
